@@ -1,6 +1,25 @@
 $(document).ready( function(){
 	$('#back').remove(); //con .remove eliminamos el icono flecha.
-	
+
+});
+	$('#recetas').html(function printNews(){
+		$('#recetas').text('Nuevas Recetas')
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	//La variable "recipesArray" esta declarada en el archivo "data/recipes.js"
 	renderHighlightedRecipes(recipesArray);
@@ -44,4 +63,4 @@ function renderActivity(recipe) {
 }
 
 
-});
+
